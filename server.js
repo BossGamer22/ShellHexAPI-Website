@@ -1,6 +1,6 @@
 //Variables
 const express = require('express');
-const port = env.process.PORT || 8000
+const port = process.env.PORT || 8000
 const api = express();
 
 //Self

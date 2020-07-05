@@ -1,9 +1,185 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>test</title>
-    </head>
-    <body>
-        <h1>HELLO</h1>
-    </body>
+<html lang="en">
+
+<head>
+    <title>ShellHex API</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="prism.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <h2 style="margin: 0; color: gray; text-align: left; background-color: #212121; padding: 12px 10px; font-size: 20px;">ShellHex</h2>
+    <h3 style="margin: 0; color: lightgray; position: absolute; top: 13px; right: 1105px;">By shadowboy6753</h3>
+    <a href="index.html" style="text-decoration: none;"><strong style="margin: 0; color: white; font-size: 25px; position: absolute; top: 9px; right: 110px;">Home</strong></a>
+    <hr style="margin: 0; position: absolute; right: 100px; top: 7px; height: 30px;">
+    <a href="https://www.roblox.com/library/5285995611/ShellHex" style="text-decoration: none;"><strong style="margin: 0; color: white; font-size: 25px; position: absolute; top: 9px; right: 10px;">Module</strong></a>
+    <h1 style="color: gray; font-family: serif; position: absolute; top: 120px; right: 589px;">ShellHex API</h1>
+    <!-- Header End -->
+    <!-- Body -->
+    <h2 style="Color: white; font-size: 17px; position: absolute; top: 170px; right: 493px; font-family: monospace;  border-bottom: 1px solid white;
+    line-height: 20px; line-width: 50px;"><b>Offical Documentation for ShellHex API.</b>
+        <!-- Body End -->
+        <!-- Intro -->
+    </h2>
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 290px; right: 1200px;">Intro</h3>
+</body>
+<pre>
+	<p style="margin: 0; color: white; position: absolute; top: 350px; right: 473px; font-size: 15px;">This is official ShellHex API page. This page is created with ShellHex Functions, For starters.<br>If you want to jump to codes examples click <a href="#CodeExamples" style="text-decoration: none; color: white;">Me.</a></p>
+	</pre>
+
+<div class="Index">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 390px; right: 1200px;">Index</h3>
+    <pre>
+	<p style="margin: 0; color: white; position: absolute; top: 450px; right: 827px; font-size: 15px;">Click the links below to jump to the given function!</p>
+	</pre>
+    <lu>
+        <a href="#Script_SelfProtect">
+            <li style="margin: 0; color: white; position: absolute; top: 480px; right: 1117px;">Script_SelfProtect</li>
+        </a><a href="#Script_AntiDeletion">
+            <li style="margin: 0; color: white; position: absolute; top: 507px; right: 1105px;">Script_AntiDeletion</li>
+        </a>
+        <a href="#Self_OnObjectChanged">
+            <li style="margin: 0; color: white; position: absolute; top: 535px; right: 1082px;">Self_OnObjectChanged</li>
+        </a>
+        <a href="#Self_OnConnectedChanged">
+            <li style="margin: 0; color: white; position: absolute; top: 565px; right: 1052px;">Self_OnConnectionChanged</li>
+        </a>
+        <a href="#Self_GetPlayerScriptCountStatus">
+            <li style="margin: 0; color: white; position: absolute; top: 598px; right: 1022px;">Self_GetPlayerScriptCountStatus</li>
+        </a>
+    </lu>
+</div>
+<!-- Intro End -->
+<!-- Script_SelfProtect -->
+<div class="Anchor" id="Script">
+    <a class="Anchor" id="Script_SelfProtect" style="position: absolute; top: 650px; right: 1236px; visibility: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 666px; width: 1347px;">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 700px; right: 1057px;">Script_SelfProtect</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 757px; right: 1122px; font-size: 17px;">Script_SelfProtect</h3>
+    <p><code style="position: absolute; top: 786px; right: 414px;">Script_SelfProtect(<<span class="function">function</span>>ScriptPath, <<span class="string">string</span>>ScriptParentClassName, <<span class="boolean">boolean>CanFireRemote)</span></code></p>
+    <pre>
+	   <p style="margin: 0; color: white; position: absolute; top: 822px; right: 637px; font-size: 15px;">Protects the Script by Making it Impossible to Disable and Change the Path.</p>
+	   </pre>
+</div>
+<!-- Script_SelfProtect End -->
+<!-- Script_AntiDeletion -->
+<div class="Anchor" id="Script">
+    <a class="Anchor" id="Script_AntiDeletion" style="position: absolute; top: 885px; right: 1236px; visibility: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 900px; width: 1347px">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 940px; right: 1057px;">Script_AntiDeletion</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 999px; right: 1120px; font-size: 17px;">Script_AntiDeletion</h3>
+    <p><code style="position: absolute; top: 1030px; right: 666px;">Script_AntiDeletion(<span class="function"><</span><span class="function">function></span>ScriptParentPath, <span class="string"></span><</span><span class="string">string></span>ScriptName)</code></p>
+    <pre>
+	   <p style="margin: 0; color: white; position: absolute; top: 1065px; right: 929px; font-size: 15px;">Protects the Script from Getting Deleted.</p>
+	   </pre>
+</div>
+<!-- Script_AntiDeletion End -->
+<!-- Self_OnObjectChanged -->
+<div class="Anchor" id="Self">
+    <a class="Anchor" id="Self_OnObjectChanged" style="position: absolute; top: 1124px; right: 1236px; visibility: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 1140px; width: 1347px;">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 1180px; right: 1048px;">Self_OnObjectChanged</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 1240px; right: 1095px; font-size: 17px;">Self_OnObjectChanged</h3>
+    <p><code style="position: absolute; top: 1274px; right: 680px;">Self_OnObjectChanged(<span class="function"><</span><span class="function">function></span>ObjectPath, <<span class="boolean">boolean></span>CanFireRemote)</code></p>
+    <pre>
+	   <p style="margin: 0; color: white; position: absolute; top: 1312px; right: 913px; font-size: 15px;">It Detects if the Player Changed the Object.</p>
+	   </pre>
+</div>
+<!-- Self_OnObjectChanged End -->
+<!-- Self_OnConnectedChanged -->
+<div class="Anchor" id="Self">
+    <a class="Anchor" id="Self_OnConnectedChanged" style="position: absolute; top: 1371px; right: 1236px; visibility: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 1386px; width: 1347px;">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 1430px; right: 1004px;">Self_OnConnectionChanged</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 1489px; right: 1061px; font-size: 17px;">Self_OnConnectionChanged</h3>
+    <p><code style="position: absolute; top: 1523px; right: 832px;">Self_OnConnectionChanged(<<span class="boolean">boolean>CanFireRemote)</span></code></p>
+    <pre>
+	   <p style="margin: 0; color: white; position: absolute; top: 1562px; right: 711px; font-size: 15px;">It Detects if the Player Change/Customize his own Roblox Connection.</p>
+	   </pre>
+</div>
+<!-- Self_OnConnectedChanged End -->
+<!-- Self_GetPlayerScriptCountStatus -->
+<div class="Anchor" id="Self">
+    <a class="Anchor" id="Self_GetPlayerScriptCountStatus" style="position: absolute; top: 1624px; right: 1236px; visibility: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 1640px; width: 1347px;">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 1690px; right: 928px;">Self_GetPlayerScriptCountStatus</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 1745px; right: 1024px; font-size: 17px;">Self_GetPlayerScriptCountStatus</h3>
+    <p><code style="position: absolute; top: 1780px; right: 965px;">Self_GetPlayerScriptCountStatus()</span></code></p>
+    <pre>
+	   <p style="margin: 0; color: white; position: absolute; top: 1819px; right: 672px; font-size: 15px;">Return the Player Self Scripts Error Count,Warn Count,Print Count Status.</p>
+	   </pre>
+</div>
+<!-- Self_GetPlayerScriptCountStatus End -->
+<!-- Functions Codes Examples -->
+<div class="Codes" id="Functions">
+    <a class="Anchor" id="CodeExamples" style="position: absolute; top: 1878px; right: 1236px; visibility: visible: hidden;"></a>
+    <hr style="margin: 0; position: absolute; top: 1893px; width: 1347px">
+    <h3 style="Color: white; font-size: 20px; font-family: monospace; position: absolute; top: 1940px; right: 1102px;">Codes Examples</h3>
+    <h3 style="margin: 0; color: white; position: absolute; top: 2010px; right: 1122px; font-size: 17px;">Script_SelfProtect</h3>
+     <pre>
+     <p style="margin: 0; color: white; position: absolute; top: 2040px; right: 175px; font-size: 15px;">Script_SelfProtect Code Example, It will make the script Impossible to Disable and Change the Current Path of the Script.<br>Arguments Meanings:<br>ScriptPath Means is Where is the Script Path you want for the Protection to work.<br>ScriptParentClass Means is The Script Current Parent ClassName so if the Parent ClassName is not the Same it will Trigger the Code.<br>CanFireRemote Means is if the boolean is true it will fire the Remote then the Server Script will be Triggered,<br>which is in the Module Resources Folder With the Function Name.</p>
+    </pre>
+    <pre class="language-lua" style="position: absolute; top: 2154px; right: 730px; width: 500px;">
+--Variables
+local ShellHex = require(workspace.ShellHex)
+
+--Main
+ShellHex.Script_SelfProtect(script, "Model", false)
+    </pre>
+     <h3 style="margin: 0; color: white; position: absolute; top: 2355px; right: 1111px; font-size: 17px;">Script_AntiDeletion</h3>
+        <pre>
+     <p style="margin: 0; color: white; position: absolute; top: 2389px; right: 606px; font-size: 15px;">Script_AntiDeletion Code Example, It will make the script Impossible to Delete.<br>Arguments Meanings:<br>ScriptParentPath Means the Path of the script you want to Protect.<br>ScriptName Means is the Name of the Script you want to Protect on the Path.</p>
+    </pre>
+    <pre class="language-lua" style="position: absolute; top: 2474px; right: 219px;">
+--Variables
+local Players = game:GetService('Players')
+local ShellHex = require(workspace.ShellHex)
+
+--Main
+Players.PlayerAdded:Connect(function(player)
+	player.CharacterAdded:Connect(function(character)
+		ShellHex.Script_AntiDeletion(character, "AntiExploit") --The Script i want to Protect is Named AntiExploit,
+	end) --And Location is in the Player Character.
+end)
+    </pre>
+    <h3 style="margin: 0; color: white; position: absolute; top: 2810px; right: 1085px; font-size: 17px;">Self_OnObjectChanged</h3>
+            <pre>
+     <p style="margin: 0; color: white; position: absolute; top: 2840px; right: 345px; font-size: 15px;">Script_AntiDeletion Code Example, It Detects if the Player Changed the Object.<br>Arguments Meanings:<br>ObjectPath Means is Where is the Part you want to use in this Function.<br>CanFireRemote Means is if the boolean is true it will fire the Remote then the Server Script will be Triggered,<br>which is in the Module Resources Folder With the Function Name.</p>
+    </pre>
+    <pre class="language-lua" style="position: absolute; top: 2943px; right: 775px;">
+--Variables
+local ShellHex = require(workspace.ShellHex)
+
+--Main
+ShellHex.Self_OnObjectChanged(workspace.Part, false)
+    </pre>
+     <h3 style="margin: 0; color: white; position: absolute; top: 3154px; right: 1053px; font-size: 17px;">Self_OnConnectionChanged</h3>
+      <pre>
+     <p style="margin: 0; color: white; position: absolute; top: 3186px; right: 345px; font-size: 15px;">Self_OnConnectionChanged Code Example, It Detects if the Player Changed his own Roblox Connection.<br>Arguments Meanings:<br>CanFireRemote Means is if the boolean is true it will fire the Remote then the Server Script will be Triggered,<br>which is in the Module Resources Folder With the Function Name.</p>
+    </pre>
+    <pre class="language-lua" style="position: absolute; top: 3269px; right: 845px;">
+--Variables
+local ShellHex = require(workspace.ShellHex)
+
+--Main
+ShellHex.Self_OnConnectionChanged(true)
+    </pre>
+    <h3 style="margin: 0; color: white; position: absolute; top: 3470px; right: 1014px; font-size: 17px;">Self_GetPlayerScriptCountStatus</h3>
+         <pre>
+     <p style="margin: 0; color: white; position: absolute; top: 3502px; right: 254px; font-size: 15px;">Self_GetPlayerScriptCountStatus Code Example, It Return the Player Self Scripts Error Count,Warn Count,Print Count Status.</p>
+    </pre>
+    <pre class="language-lua" style="position: absolute; top: 3530px; right: 737px;">
+--Variables
+local ShellHex = require(workspace.ShellHex)
+
+--Main
+local infos = ShellHex.Self_GetPlayerScriptCountStatus()
+print(infos.Errors)
+print(infos.Prints)
+print(infos.Warns) 
+    </pre>
+</div>
+<!-- Functions Codes Examples End -->
+
 </html>
